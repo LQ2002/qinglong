@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: whyour/qinglong:latest
+    image: whyour/qinglong:2.10.13
     volumes:
       - ./data/config:/ql/config
       - ./data/log:/ql/log
